@@ -20,9 +20,10 @@ gif_finder is a file recovery program designed to recover deleted .gif files fro
 ## Usage
 - Connect your drive or USB that is formatted in ext3 and ensure you know its device name (e.g., /dev/sdb).
 - Run the program with root privileges to scan and recover GIF files:
-##
+```
   sudo ./gif_finder /dev/sdX
-     Replace /dev/sdX with the correct device name.
+```
+    Replace /dev/sdX with the correct device name.
  - The recovered files will be saved in the current working directory as `recovery_X.gif`.
 
 ## Future Improvements
